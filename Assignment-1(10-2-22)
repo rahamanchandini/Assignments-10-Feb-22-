@@ -1,0 +1,28 @@
+Assignment-1:
+------------------------
+#Write python program to generate student result whether pass or fail.
+sno=int(input('Enter student Rollno: '))
+sname=input('Enter student name: ')
+sgroup=input('Enter student group: ')
+s1=int(input('Enter Maths marks: '))
+s2=int(input('Enter Electronics marks: '))
+s3=int(input('Enter Computer marks: '))
+s4=int(input('Enter English marks: '))
+s5=int(input('Enter Telugu marks: '))
+s6=int(input('Enter Softskills marks: '))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 :
+     print('Result:Passed')
+else:
+     print('Result:Failed')
+O/p:
+-------
+Enter student Rollno: 10
+Enter student name: Chandini
+Enter student group: MECS
+Enter Maths marks: 52
+Enter Electronics marks: 65
+Enter Computer marks: 75
+Enter English marks: 45
+Enter Telugu marks: 65
+Enter Softskills marks: 75
+Result:Passed
